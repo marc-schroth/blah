@@ -1,1 +1,10 @@
-
+- throw Error objects, not Strings
+- === and !==
+- Response format
+- Internal functions = allowed (though consider making them generic and class-level)
+- Public/Private Variables/Functions order
+- Define all variables at top of function (alpha or related?)
+- RETURN PROMISES (or Observables?)
+- USE LODASH
+- Make get functions generic, and allow caller to extract specific information they need, unless you have a good reason (ie. admin-specific data, joins needed, etc)
+- 
